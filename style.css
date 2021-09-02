@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+div {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  color: #FFFF;
+  font-family: serif;
+}
+
+.page1 {
+  background-image: url("fire.jpg");
+  background-attachment: fixed;
+  background-size: cover  ;
+  background-repeat: no-repeat;
+
+}
+
+.page1 h1 {
+  position: fixed;
+  overflow: hidden;
+  font-family: 'Allison', cursive;
+  font-size: 80px;
+}
+
+.page1 h1 a {
+  text-decoration: none;
+  color: #FFFF;
+}
+
+.page1 h1 a:hover {
+  text-shadow: 5px 9px 12px rgba(255, 255, 255, 1);
+}
+
+.page2 {
+  background-image: url("water.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.page3 {
+  background-image: url("tree.jpg");
+  background-size: cover;
+}
