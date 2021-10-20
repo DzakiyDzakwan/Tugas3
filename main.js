@@ -1,3 +1,4 @@
+//deklarasi variable
 let input1 = document.querySelector('#num1')
 
 let input2 = document.getElementById('num2')
@@ -10,6 +11,7 @@ let numbers1 = document.querySelectorAll('.number-btn-1')
 
 let numbers2 = document.querySelectorAll('.number-btn-2')
 
+//number button input bil1
 numbers1.forEach((number)=>{
   number.addEventListener('click',()=>{
     if (number.value === "clear"){
@@ -20,6 +22,7 @@ numbers1.forEach((number)=>{
   })    
 })
 
+//number input bil2
 numbers2.forEach((number)=>{
     number.addEventListener('click',()=>{
       if (number.value === "clear"){
@@ -30,6 +33,7 @@ numbers2.forEach((number)=>{
     })    
   })
 
+  //operator button operate
 operator.forEach((button) => {
     button.addEventListener('click', ()=>{
         let bil1 = Number.parseInt(input1.value,10)
